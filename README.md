@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CORALINA
 
-## Getting Started
+> E-commerce de moda — protótipo de loja online com identidade editorial.
 
-First, run the development server:
+🔗 **Demo:** https://coralina-six.vercel.app
+
+CORALINA é um protótipo de loja de roupas construído para explorar uma experiência de compra moderna: hero em vídeo, vitrine de produtos, página de produto com galeria e seleção de tamanho, e sacola (carrinho) com persistência.
+
+## ✨ Funcionalidades
+
+- 🏠 **Home** com hero em vídeo e seções editoriais
+- 🛍️ **Vitrine** de produtos com filtros
+- 👗 **Página de produto** com galeria, tamanhos e botão de sacola
+- 🛒 **Sacola/carrinho real** — contador no header, painel lateral e persistência entre sessões
+- 📖 **Lookbook** e seção sobre a marca
+- 📱 Layout responsivo (mobile-first)
+
+## 🛠️ Stack
+
+- **Next.js 16** (App Router) + **React 19**
+- **TypeScript**
+- **Tailwind CSS v4**
+- **Google GenAI** (`@google/genai`) — geração das imagens do catálogo
+
+## 🚀 Rodando localmente
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# abre http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📄 Sobre
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projeto desenvolvido por **Mateus Porto** como estudo de e-commerce e front-end moderno. Marca e produtos são fictícios.
