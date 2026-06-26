@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  /* Marca CORALINA — paleta tropical elevada */
+  --color-coral: #f25c3b;
+  --color-coral-deep: #c6452a;
+  --color-palm: #1f5c3d;
+  --color-palm-deep: #143d29;
+  --color-sand: #faf3e7;
+  --color-cream: #f4e9d8;
+  --color-gold: #d9a24b;
+  --color-ink: #1a120b;
+
+  /* Semânticos */
+  --color-bg: #1a120b;
+  --color-text: #faf3e7;
+  --color-text-muted: #d8cbb6;
+  --color-accent: #f25c3b;
+
+  --space-section: clamp(5rem, 10vw, 9rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: "Satoshi", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: "Zodiak", Georgia, serif;
+}
+
+/* Entrada suave dos elementos do hero */
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.rise {
+  opacity: 0;
+  animation: rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -1,0 +1,15 @@
+COLOQUE AQUI O VÍDEO DO HERO
+============================
+
+1. Renomeie o vídeo gerado no Veo 3 para:  hero.mp4
+2. Coloque o arquivo nesta pasta (public/videos/hero.mp4)
+3. (Opcional) Um frame estático como fallback:  hero-poster.jpg
+
+Dicas de otimização para fundo de site:
+- Formato: MP4 (H.264) — mais compatível
+- Resolução: 1920x1080 é suficiente para fundo
+- Sem áudio (o vídeo toca mudo no site)
+- Tente manter abaixo de ~5 MB (use HandBrake ou ffmpeg para comprimir)
+  Ex.: ffmpeg -i original.mp4 -vcodec libx264 -crf 28 -an hero.mp4
+
+Enquanto não houver vídeo, o site mostra um gradiente tropical como fallback.

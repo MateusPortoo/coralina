@@ -1,0 +1,20 @@
+FOTOS DE PRODUTO
+================
+
+Gere cada foto no Nano Banana, renomeie e coloque AQUI com o nome exato:
+
+  vestido-maresia.jpg
+  maio-coral.jpg
+  saida-croche-ilhabela.jpg
+  vestido-coqueiro.jpg
+  kaftan-botanica.jpg
+  maio-duna.jpg
+  chapeu-palha-costa.jpg
+  vestido-solara.jpg
+  bolsa-palha-mare.jpg
+
+Formato: JPG, vertical (proporção 3:4, ex.: 900x1200).
+Enquanto a foto não existir, o card mostra o placeholder colorido automaticamente.
+
+DICA DE COESÃO: use a MESMA direção de arte (mesma modelo, mesmo fundo,
+mesma luz) em todas as fotos pra coleção parecer uma campanha só.
